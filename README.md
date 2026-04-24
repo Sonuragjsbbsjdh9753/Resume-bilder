@@ -19,7 +19,8 @@ This project is created to practice front-end development and build a useful too
 
 📷 Preview
 
-(Add screenshots here)
+![image alt](https://github.com/Sonuragjsbbsjdh9753/Resume-bilder/blob/0e9c9190ca3eea2d52185d93c0f30938417144ea/Screenshot%202026-04-24%20152232.png)
+
 
 🔧 Future Improvements
 Add multiple resume templates
