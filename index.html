@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume Builder — Glass Nav</title>
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Glassmorphism Header / Navbar -->
+    <header class="glass-nav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Brand / Logo -->
+                <a class="navbar-brand" href="#">
+                    <span class="brand-dot"></span>
+                    ResumeBuilder
+                </a>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                    aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#templates">Templates</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                        <li class="nav-item d-lg-none my-2">
+                            <a class="btn btn-cta w-100" href="#start">Start Building</a>
+                        </li>
+
+                        <li class="nav-item dropdown d-none d-lg-block ms-2">
+                            <a class="btn btn-cta" href="#start">Start Building</a>
+                        </li>
+
+                        <li class="nav-item ms-lg-2">
+                            <a class="nav-link" href="#login"><i class="bi bi-person-circle me-1"></i>Login/Signup</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="assests/v2.mp4" type="video/mp4">
+        </video>
+    
+        <!-- Overlay Content -->
+        <div class="hero-content">
+            <h1>Create Your Professional Resume in Minutes</h1>
+            <p>Stand out with ATS-friendly, beautifully designed resumes.</p>
+            <div class="btn-group">
+                <a href="builder.html" class="btn btn-primary">Start Building Now</a>
+                <a href="templates.html" class="btn btn-outline-light">View Templates</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- Hero Section CTA -->
+<div class="mt-4">
+  <a href="#builder" class="btn btn-primary me-3">Start Building Now</a>
+  <a href="#templates" class="btn btn-outline-light">View Templates</a>
+</div>
+
+<!-- Add this placeholder later in page -->
+<section id="builder" class="py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold">Resume Builder Coming Soon 🚀</h2>
+    <p class="text-muted">This is where users will create and customize their resumes.</p>
+  </div>
+</section>
+
+
+        <section id="features" class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="glass-card p-4 rounded-4">
+                            <h5>Drag & Drop Editor</h5>
+                            <p>Build your resume fast with live preview.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="glass-card p-4 rounded-4">
+                            <h5>ATS Friendly</h5>
+                            <p>Optimized for Applicant Tracking Systems.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="glass-card p-4 rounded-4">
+                            <h5>Export PDF/DOCX</h5>
+                            <p>One click to download your resume.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center" id="hero">
+        <div class="container">
+            <div class="row align-items-center">
+    
+                <!-- Left Content -->
+                <div class="col-lg-6 text-center text-lg-start hero-text">
+                    <h1>Create Your Professional Resume in Minutes</h1>
+                    <p>Stand out with ATS-friendly, beautifully designed resumes.</p>
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+                        <a href="#start" class="btn btn-primary btn-lg">Start Building Now</a>
+                        <a href="#templates" class="btn btn-outline-light btn-lg">View Templates</a>
+                    </div>
+                </div>
+    
+                <!-- Right Illustration -->
+                <div class="col-lg-6 text-center hero-image">
+                    <img src="assests/l2.jpg" alt="Resume Laptop Preview" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Features Section -->
+<section class="features py-5" id="features">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2 class="fw-bold">Powerful Features</h2>
+            <p class="text-muted">Everything you need to create a job-winning resume</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Feature 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="feature-card text-center p-4 h-100">
+                    <div class="icon mb-3"><i class="bi bi-magic fs-1"></i></div>
+                    <h5 class="mb-2">Easy Drag & Drop Editor</h5>
+                    <p class="text-muted">Quickly build your resume with a simple, intuitive editor.</p>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="feature-card text-center p-4 h-100">
+                    <div class="icon mb-3"><i class="bi bi-check2-square fs-1"></i></div>
+                    <h5 class="mb-2">ATS-Friendly Resumes</h5>
+                    <p class="text-muted">Optimized for Applicant Tracking Systems to pass screening.</p>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="feature-card text-center p-4 h-100">
+                    <div class="icon mb-3"><i class="bi bi-palette fs-1"></i></div>
+                    <h5 class="mb-2">Customizable Templates</h5>
+                    <p class="text-muted">Choose from modern, creative, or professional templates.</p>
+                </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="feature-card text-center p-4 h-100">
+                    <div class="icon mb-3"><i class="bi bi-file-earmark-pdf fs-1"></i></div>
+                    <h5 class="mb-2">Export PDF / DOCX</h5>
+                    <p class="text-muted">Download your resume instantly in multiple formats.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Templates Preview Section -->
+<section class="templates py-5" id="templates">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2 class="fw-bold">Choose Your Resume Template</h2>
+            <p class="text-muted">Modern, creative, and professional templates to fit your style</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Template 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="template-card">
+                    <img src="assests/r1.jpg" alt="Template 1">
+                </div>
+            </div>
+
+            <!-- Template 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="template-card">
+                    <img src="assests/resume1.jpg" alt="Template 2">
+                </div>
+            </div>
+
+            <!-- Template 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="template-card">
+                    <img src="assests/resume2.jpg" alt="Template 3">
+                </div>
+            </div>
+        </div>
+
+        <!-- Browse All Templates Button -->
+        <div class="text-center mt-5">
+            <a href="#" class="btn browse-btn px-4 py-2">Browse All Templates</a>
+        </div>
+    </div>
+</section>
+<section>
+<!-- How It Works Section -->
+<section class="how-it-works py-5" id="how-it-works">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2 class="fw-bold">How It Works</h2>
+            <p class="text-muted">Build your professional resume in just 3 easy steps</p>
+        </div>
+
+        <div class="row g-4 text-center">
+            <!-- Step 1 -->
+            <div class="col-md-4">
+                <div class="step-card p-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-layout-text-window-reverse"></i>
+                    </div>
+                    <h5 class="fw-bold">Choose Template</h5>
+                    <p>Select from our wide range of modern, ATS-friendly templates.</p>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="col-md-4">
+                <div class="step-card p-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-pencil-square"></i>
+                    </div>
+                    <h5 class="fw-bold">Fill in Your Details</h5>
+                    <p>Enter your professional details with our easy drag-and-drop editor.</p>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="col-md-4">
+                <div class="step-card p-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-cloud-arrow-down"></i>
+                    </div>
+                    <h5 class="fw-bold">Download Resume</h5>
+                    <p>Export your polished resume instantly in PDF or DOCX format.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Play Button -->
+        <div class="text-center mt-5">
+            <button class="btn btn-gradient btn-lg rounded-pill px-4" data-bs-toggle="modal"
+                data-bs-target="#videoModal">
+                <i class="bi bi-play-circle me-2"></i> Watch Explainer Video
+            </button>
+        </div>
+    </div>
+<!-- Video Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark border-0 rounded-4">
+            <div class="modal-header border-0">
+                <h5 class="modal-title text-light">Explainer Video</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-0">
+                <div class="ratio ratio-16x9">
+                    <iframe id="assests/v2" src="" title="Explainer Video" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- Pricing Section -->
+<section class="pricing py-5" id="pricing">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2 class="fw-bold">Choose Your Plan</h2>
+            <p class="text-muted">Flexible pricing for everyone – start free, upgrade anytime</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+            <!-- Free Plan -->
+            <div class="col-md-5">
+                <div class="price-card p-4">
+                    <h4 class="plan-title">Free Plan</h4>
+                    <h2 class="price">$0 <span class="fs-6 text-muted">/ month</span></h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li><i class="bi bi-check-circle me-2"></i> 1 Resume Template</li>
+                        <li><i class="bi bi-check-circle me-2"></i> Basic Customization</li>
+                        <li><i class="bi bi-check-circle me-2"></i> Export in PDF</li>
+                        <li><i class="bi bi-x-circle me-2 text-danger"></i> Premium Templates</li>
+                        <li><i class="bi bi-x-circle me-2 text-danger"></i> Multiple Resume Versions</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline-light w-100 rounded-pill">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="col-md-5">
+                <div class="price-card premium p-4">
+                    <div class="popular-badge">Most Popular</div>
+                    <h4 class="plan-title">Premium Plan</h4>
+                    <h2 class="price">$9.99 <span class="fs-6 text-muted">/ month</span></h2>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li><i class="bi bi-check-circle me-2"></i> All Templates</li>
+                        <li><i class="bi bi-check-circle me-2"></i> Advanced Customization</li>
+                        <li><i class="bi bi-check-circle me-2"></i> Export in PDF & DOCX</li>
+                        <li><i class="bi bi-check-circle me-2"></i> Unlimited Resume Versions</li>
+                        <li><i class="bi bi-check-circle me-2"></i> Priority Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-gradient w-100 rounded-pill">Upgrade Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Testimonials Section -->
+<section class="testimonials py-5" id="testimonials">
+    <div class="container">
+        <div class="section-header text-center mb-4">
+            <h2 class="fw-bold">What Our Users Say</h2>
+            <p class="text-muted">Real stories from people who built their resumes with us</p>
+        </div>
+
+        <!-- ⭐ Rating Summary -->
+        <div class="rating-summary text-center mb-5">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <h5 class="fw-bold mt-2">4.9/5 Rating</h5>
+            <p class="text-muted">Based on 1,200+ verified reviews</p>
+        </div>
+
+        <!-- Carousel -->
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- Testimonial 1 -->
+                <div class="carousel-item active">
+                    <div class="testimonial-card mx-auto text-center p-4">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="profile-img mb-3"
+                            alt="User 1">
+                        <h5 class="mb-1">Sarah Johnson</h5>
+                        <small class="text-muted">Marketing Professional</small>
+                        <div class="stars my-2">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">
+                            “This resume builder made the process so simple! I landed interviews within a week. Highly
+                            recommend it to anyone.”
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="carousel-item">
+                    <div class="testimonial-card mx-auto text-center p-4">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="profile-img mb-3" alt="User 2">
+                        <h5 class="mb-1">David Miller</h5>
+                        <small class="text-muted">Software Engineer</small>
+                        <div class="stars my-2">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">
+                            “The templates are modern, ATS-friendly, and very customizable. I upgraded to Premium and it
+                            was totally worth it.”
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="carousel-item">
+                    <div class="testimonial-card mx-auto text-center p-4">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" class="profile-img mb-3"
+                            alt="User 3">
+                        <h5 class="mb-1">Emily Carter</h5>
+                        <small class="text-muted">HR Manager</small>
+                        <div class="stars my-2">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">
+                            “I’ve reviewed thousands of resumes, and this tool helps applicants stand out instantly.
+                            Clean, professional designs!”
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+<!-- FAQ Section -->
+<section class="faq py-5" id="faq">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2 class="fw-bold">Frequently Asked Questions</h2>
+            <p class="text-muted">Answers to common questions about our resume builder</p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+
+            <!-- Q1 -->
+            <div class="accordion-item glass-card">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne">
+                        Are the templates ATS-friendly?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes! All our templates are designed to pass ATS (Applicant Tracking Systems) so your resume
+                        never gets rejected.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="accordion-item glass-card">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo">
+                        Can I download my resume as PDF or Word?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Absolutely. You can export your resume in PDF and DOCX formats with just one click.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="accordion-item glass-card">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree">
+                        Do you offer free templates?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, we provide free templates with basic features. Premium users unlock advanced customization
+                        and exclusive designs.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="accordion-item glass-card">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour">
+                        Can I edit my resume after downloading?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, you can log in anytime to update your resume, then re-download the updated version in PDF
+                        or Word.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Contact CTA -->
+        <div class="faq-cta text-center mt-5">
+            <p class="mb-3">Still have questions? We’re here to help.</p>
+            <a href="#contact" class="btn btn-glow">Contact Us</a>
+        </div>
+    </div>
+</section>
+<!-- CTA Banner (before footer) -->
+<section class="cta-banner text-center py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-3">Ready to land your dream job? <br> Build your resume today!</h2>
+        <a href="#start" class="btn btn-cta">Start for Free</a>
+        
+    </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="contact py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Get in Touch</h2>
+            <p class="text-muted">We’d love to hear from you. Send us a message!</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Contact Info -->
+            <div class="col-md-4">
+                <div class="contact-box p-4 h-100">
+                    <i class="bi bi-geo-alt fs-3"></i>
+                    <h5 class="mt-3">Address</h5>
+                    <p>123 Resume Street, Patna, India</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-box p-4 h-100">
+                    <i class="bi bi-telephone fs-3"></i>
+                    <h5 class="mt-3">Phone</h5>
+                    <p>+91 98765 43210</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-box p-4 h-100">
+                    <i class="bi bi-envelope fs-3"></i>
+                    <h5 class="mt-3">Email</h5>
+                    <p>support@resumebuilder.com</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="row mt-5">
+            <div class="col-lg-8 mx-auto">
+                <form id="contactForm" class="p-4 contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Write your message..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-contact w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Resume Form -->
+<section class="container my-5">
+    <form id="resumeForm" class="row g-3">
+        <!-- Personal Info -->
+        <div class="col-md-6">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" name="name" required>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" required>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Phone</label>
+            <input type="text" class="form-control" name="phone" required>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Address</label>
+            <input type="text" class="form-control" name="address">
+        </div>
+
+        <!-- Education -->
+        <div class="col-12">
+            <label class="form-label">Education</label>
+            <textarea class="form-control" name="education" rows="3"></textarea>
+        </div>
+
+        <!-- Experience -->
+        <div class="col-12">
+            <label class="form-label">Experience</label>
+            <textarea class="form-control" name="experience" rows="3"></textarea>
+        </div>
+
+        <!-- Skills -->
+        <div class="col-12">
+            <label class="form-label">Skills</label>
+            <textarea class="form-control" name="skills" rows="2"></textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div class="col-12 text-center mt-4">
+            <button type="button" id="previewBtn" class="btn btn-primary">Preview Resume</button>
+            <button type="reset" class="btn btn-secondary">Clear</button>
+        </div>
+    </form>
+</section>
+
+<!-- Resume Preview -->
+<section class="container my-5 d-none" id="resumePreview">
+    <div class="card bg-light text-dark p-4 shadow">
+        <h2 id="previewName"></h2>
+        <p><strong>Email:</strong> <span id="previewEmail"></span></p>
+        <p><strong>Phone:</strong> <span id="previewPhone"></span></p>
+        <p><strong>Address:</strong> <span id="previewAddress"></span></p>
+        <hr>
+        <h4>Education</h4>
+        <p id="previewEducation"></p>
+        <h4>Experience</h4>
+        <p id="previewExperience"></p>
+        <h4>Skills</h4>
+        <p id="previewSkills"></p>
+    </div>
+</section>
+
+
+
+<!-- Footer Section -->
+<footer class="footer py-5">
+    <div class="container">
+        <div class="row">
+
+            <!-- Quick Links -->
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Templates</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-md-5 mb-4">
+                <h5 class="fw-bold">Newsletter</h5>
+                <p>Subscribe to get updates on new templates & career tips.</p>
+                <form class="d-flex">
+                    <input type="email" class="form-control me-2" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-subscribe">Subscribe</button>
+                </form>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-md-4 mb-4 text-md-end text-center">
+                <h5 class="fw-bold">Follow Us</h5>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="border-light">
+
+        <!-- Copyright & Back to Top -->
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <p class="mb-2 mb-md-0">© 2025 ResumeBuilder. All Rights Reserved.</p>
+            <button id="backToTop" class="btn btn-top">
+                <i class="bi bi-arrow-up"></i> Back to Top
+            </button>
+        </div>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
